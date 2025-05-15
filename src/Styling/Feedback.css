@@ -1,0 +1,71 @@
+.feedback-form-container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 25px;
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+.feedback-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.feedback-success {
+  color: green;
+  font-weight: bold;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.feedback-form label {
+  display: block;
+  margin-bottom: 15px;
+  font-weight: 500;
+}
+
+.feedback-form input,
+.feedback-form select,
+.feedback-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 6px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.feedback-form textarea {
+  resize: vertical;
+}
+
+.feedback-form button {
+  margin-top: 10px;
+  padding: 12px 20px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.feedback-form button:hover {
+  background-color: #0056b3;
+}
+.feedback-form label .icon {
+  margin-right: 8px;
+  color: #007bff;
+  vertical-align: middle;
+}
+
+.feedback-form button .icon {
+  margin-right: 6px;
+  vertical-align: middle;
+}

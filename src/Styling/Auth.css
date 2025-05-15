@@ -1,0 +1,160 @@
+.auth-container {
+  width: 900px;
+  margin: 80px auto;
+  padding: 35px 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 35px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  transition: transform 0.3s ease;
+}
+
+.auth-container:hover {
+  transform: translateY(-6px);
+}
+
+.auth-container h2 {
+  margin-bottom: 25px;
+  color: #333;
+  font-size: 26px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.auth-container input {
+  display: block;
+  width: 100%; 
+  padding: 18px;
+  margin: 12px 0;
+  border: 2px solid #dcdcdc;
+  border-radius: 10px; 
+  font-size: 16px;
+  background-color: #ffffff;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.auth-container input:focus {
+  border-color: #0077cc;
+  box-shadow: 0 0 8px rgba(0, 119, 204, 0.2);
+  outline: none;
+}
+
+.auth-container button {
+  padding: 18px;
+  width: 100%; 
+  background-color: #0077cc;
+  color: white;
+  border: none;
+  border-radius: 10px; 
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.auth-container button:hover {
+  background-color: #005fa3;
+  transform: scale(1.03);
+}
+
+.auth-links {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #777;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.auth-links a {
+  color: #0077cc;
+  text-decoration: none;
+  transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+.auth-links a:hover {
+  color: #004080;
+  text-decoration: underline;
+}
+
+.input-icon {
+  display: flex;
+  align-items: center;
+  border: 2px solid #dcdcdc;
+  padding: 14px;
+  border-radius: 10px;
+  margin: 12px 0;
+  background-color: #ffffff;
+}
+
+.input-icon svg {
+  margin-right: 12px;
+  color: #333;
+  font-size: 18px;
+}
+
+.input-icon input {
+  border: none;
+  outline: none;
+  flex: 1;
+  font-size: 16px;
+  background: transparent;
+}
+
+/* Media Queries for Responsiveness */
+
+/* For screens smaller than 768px (tablets, mobile devices in portrait mode) */
+@media (max-width: 768px) {
+  .auth-container {
+    max-width: 85%; 
+    padding: 25px 20px;
+  }
+
+  .auth-container h2 {
+    font-size: 24px;
+  }
+
+  .auth-container input {
+    padding: 15px;
+    font-size: 15px;
+  }
+
+  .auth-container button {
+    padding: 15px;
+    font-size: 16px;
+  }
+
+  .auth-links {
+    font-size: 13px;
+  }
+}
+
+/* For screens smaller than 480px (mobile devices in portrait mode) */
+@media (max-width: 480px) {
+  .auth-container {
+    max-width: 90%; 
+    padding: 18px 12px;
+  }
+
+  .auth-container h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+
+  .auth-container input {
+    padding: 12px;
+    font-size: 14px;
+  }
+
+  .auth-container button {
+    padding: 12px;
+    font-size: 16px;
+  }
+
+  .auth-links {
+    font-size: 12px;
+    flex-direction: column;
+    gap: 8px;
+  }
+}

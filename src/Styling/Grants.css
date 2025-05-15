@@ -1,0 +1,94 @@
+.grant-container {
+  border-radius: 8px;
+  padding: 20px;
+  margin: 40px auto 0 auto;
+  font-family: Arial, sans-serif;
+  width: 90%;
+  max-width: 800px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.grant-title {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center; /* Center the heading */
+}
+
+.grant-filters {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center; /* Center the buttons horizontally */
+  flex-wrap: wrap; /* Allow wrapping on small screens */
+  gap: 10px; /* Optional spacing between buttons */
+}
+
+
+.grant-filter-button {
+  padding: 8px 16px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  background-color: #f4f4f4;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.2s;
+}
+
+.grant-filter-button:hover {
+  background-color: #ddd;
+}
+
+.grant-filter-button.active {
+  background-color: #007bff;
+  color: white;
+  border-color: #007bff;
+}
+
+.grant-list {
+  list-style: none;
+  padding: 0;
+}
+
+.grant-item {
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 16px;
+  margin-bottom: 16px;
+  background-color: #fff;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+}
+
+.grant-item-title {
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+.grant-description {
+  margin-bottom: 6px;
+  color: #555;
+}
+
+.grant-status {
+  font-size: 14px;
+  color: #888;
+  margin-bottom: 12px;
+}
+
+.interest-button {
+  padding: 8px 16px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.interest-button:hover {
+  background-color: #218838;
+}
+
+.interest-button.disabled,
+.interest-button:disabled {
+  background-color: #aaa;
+  cursor: not-allowed;
+}
